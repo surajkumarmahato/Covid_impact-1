@@ -59,42 +59,116 @@
     color: crimson;
 }
 /*responsive work for navbar*/
-@media(max-width:767px){
+@media(max-width:714px){
     .navbar_n .logo a{
         font-size: 25px;
     }
 }
-@media(max-width:747px){
+@media(max-width:714px){
     .navbar_n .logo a span{
         font-size: 25px;
     }
 }
-@media(max-width:747px){
+
+@media(max-width:714px){
     .navbar_n .menu li a{
-        font-size: 18px;
+        font-size: 15px;
+        font-weight: 400;
+        margin-left: 5px;
     }
 }
-@media(max-width:500px){
+
+@media(max-width:568px){
+    .navbar_n .menu li a{
+        font-size: 13px;
+        font-weight: 400;
+        margin-left: 5px;
+    }
+}
+
+@media(max-width:568px){
+    .navbar_n .logo a{
+        font-size: 20px;
+    }
+}
+@media(max-width:568px){
+    .navbar_n .logo a span{
+        font-size: 20px;
+    }
+}
+@media(max-width:568px){
+    .navbar_n .menu li a{
+        font-size: 10px;
+        font-weight: 400;
+        margin-left: 5px;
+    }
+}
+
+@media(max-width:490px){
+    .navbar_n .logo a{
+        font-size: 13px;
+        margin-left: -40px;;
+    }
+}
+@media(max-width:568px){
+    .navbar_n .logo a span{
+        font-size: 13px;
+    }
+}
+
+
+/*
+@media(max-width:420px){
+    .navbar_n .logo a{
+        font-size: 10px;
+    }
+}
+
+@media(max-width:420px){
+    .navbar_n .logo a span{
+        font-size: 10px;
+    }
+}
+@media(max-width:663px){
+    .navbar_n .logo a span{
+        font-size: 25px;
+    }
+
+}
+@media(max-width:663px){
     .navbar_n .logo a{
         margin-left: -45px;
         font-size: 20px;
     }
 }
 
-@media(max-width:600px){
-    .navbar_n .logo a span{
-        font-size: 20px;
+@media(max-width:480px){
+    .navbar_n .logo a{
+        margin-left: -45px;
+        font-size: 15px;
     }
 }
 
-@media(max-width:600px){
+@media(max-width:480px){
+    .navbar_n .logo a span{
+        margin-left: -45px;
+        font-size: 15px;
+    }
+}
+@media(max-width:731px){
+    .navbar_n .logo a span{
+        font-size: 13px;
+    }
+}
+
+@media(max-width:731px){
     .navbar_n .menu li a{
         font-size: 13px;
         font-weight: 400;
         margin-left: 10px;
     }
 }
-
+*/
 /* Home Content start Here */
 
 .home{
